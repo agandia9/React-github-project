@@ -1,4 +1,11 @@
+.MainTitle{
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
 .SearchBarPosition{
   display: flex;
   justify-content: center;
+  padding-bottom: 20px;
 }

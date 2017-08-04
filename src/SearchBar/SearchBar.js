@@ -14,12 +14,14 @@ class SearchBar extends Component {
   }
   handleSubmit = (event) => {
     console.log(this.state.value)
+    this.setState({value: ''})
     event.preventDefault()
   }
   render () {
     return (
-      <div className='SearchBarPosition'>
-        <form onSubmit={this.handleSubmit}>
+      <div>
+        <h1 className='MainTitle'> Github Finder </h1>
+        <form className='SearchBarPosition' onSubmit={this.handleSubmit}>
           <input placeholder='Username' type='text' value={this.state.value} onChange={this.handleChange} />
           <input type='submit' value='Submit' placeholder='Search' />
         </form>

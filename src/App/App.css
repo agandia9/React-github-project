@@ -1,3 +1,22 @@
-.MainTitle{
-  text-align: center;
+img.Picture{
+  width: 200px;
+  display: flex;
+  margin: 0 auto;
+  border-radius: 100%;
+  border: 2px solid #fff;
+}
+
+.Card{
+  width: 50%;
+  margin: 0 auto;
+  background-color: #24292E;
+  color: #fff;
+  padding: 15px 10px;
+  margin-top: 30px;
+  border-radius: 15px;
+}
+
+.Card p {
+  padding-left: 20px;
+  font-size: 20px;
 }
